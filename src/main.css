@@ -1,0 +1,44 @@
+:root {
+    font-family: Arial, sans-serif;
+    --accent-color: blueviolet;
+    --accent-color-light: #ad73e4;
+    --background-color: #f7f2fa;
+    /* card */
+    --card-border-color: #cac4d0;
+    --card-bg-color: #fffbfe;
+    /* input */
+    --input-border-color: #79747e;
+    --input-border-focus-color: #6750A4;
+}
+
+body {
+	margin: 0;
+	background-color: var(--background-color);
+}
+
+#content {
+	display: flex;
+	flex-wrap: 1;
+	background-color: red;
+}
+
+.card {
+	width: 500px;
+	height: 500px;
+	background-color: var(--card-bg-color);
+	border-radius: 20px;
+	border: 1px solid var(--card-border-color);
+}
+
+
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        color: #e4e4e4;
+        --background-color: #25232A;
+        --card-border-color: #49454F;
+        --card-bg-color: #1C1B1F;
+        --input-border-color: #938F99;
+        --input-border-focus-color: #D0BCFF;
+    }
+} */
